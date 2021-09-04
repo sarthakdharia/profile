@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="main.css" />
+    <title>SARTHAK</title>
+    <link rel="icon" href="skins/sartlogo_1.png" type="image/x-icon">
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:290px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(255, 255, 255);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #83dcff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #61ffea; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#69e9ff;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(0, 0, 0);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#58deff; }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav-area">
+        <input type="checkbox" id="box">
+        <label for="box" class="btn-area"><i class="fa fa-bars"></i></label>
+        <label class="logo"><img src="skins/sartlogo_1.png" alt=""><b> SarthakDharia </b></label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <form action="https://formsubmit.co/f9ac91194ba83850c0137638a0d87dcb" method="POST">    
+        <input type="hidden" name="_subject" value="New submission!">    
+        <input name="email" type="email" class="feedback-input" placeholder="Email" required>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://sites.google.com/view/sarthak-dharia/home">
+        <input name="name" type="text" class="feedback-input" placeholder="Name" required> 
+        <input name="text" type="text" class="feedback-input" placeholder="Comment" required>
+        <input type="submit" value="SUBMIT" required>
+      </form>
+
+
+    </div>
+
+    <div class="footer">
+      <a href="https://www.instagram.com/p/CRWtQFtlcNZ/"><img src="skins/yt.png" id="vector" /></a>
+      <a href="https://www.instagram.com/sartd13/"><img src="skins/insta.png" id="vector" /></a>
+      <a href="https://twitter.com/SARTHAK87241663?s=09"><img src="skins/twiter.png" id="vector" /></a>
+      <a href="https://www.linkedin.com/in/sarthak-dharia-6735a3200"><img src="skins/link.png" id="vector" /></a>
+      <a href="https://super10awesome.blogspot.com/"><img src="skins/blog.png" id="vector" /></a>
+      <a href="https://github.com/sarthakdharia"><img src="skins/GitHubLog.png" id="vector" /></a>
+    </div>
+</body>
+
+</html>
